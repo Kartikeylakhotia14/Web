@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+
+
+body,html{
+    height: 100%
+}
+#ticky{
+    text-align: center;
+    font-size: 70px;
+    position: relative;
+    top:50%;
+    
+    margin: 0 auto;
+    margin-top: -35px;
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Bungee Shade', cursive;
+    
+}
