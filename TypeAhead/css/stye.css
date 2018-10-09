@@ -1,0 +1,11 @@
+.container{
+    text-align: center;
+    width:400px;
+}
+#the-basics input{
+    width:200px;
+    height:40px;
+    border-radius:5px;
+    border:3px outset grey;
+    margin:0 auto;
+}

@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.row{
+    text-align:center;
+    width:40%;
+    margin:50px auto;
+}
+.column{
+    width:100%;
+    background: linear-gradient(red,orange);
+    opacity:0.8;
+    height:40px;
+    border: 2px solid black;
+    border-bottom: none;
+    color:white;
+    font-size:2em;
+}
+
+.column1 label{
+    float:left;
+    margin-left:10px;
+    color:Black;
+    text-decoration: underline;
+}
+.column1 input{
+    float:right;
+    margin-right:30px;
+}
+.column1{
+    border:2px solid green;
+    padding:20px;
+    border-top:none;
+    background: linear-gradient(pink,palegreen)
+}
+input:checked+label{
+    text-decoration: line-through;
+    opacity: 0.3;
+    
+}

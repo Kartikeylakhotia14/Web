@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<title>Password Generator</title>
+
+	<!--  -->
+	<link rel="stylesheet" href="Css/passgen.css">
+    <script> 
+        
+        
+        function Generate(){
+            var p=pass.lengt.value
+            var password = "abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*"
+            var tmp="";
+            for(i=0;i<p;i++){
+                tmp+=password.charAt(Math.floor(Math.random()*password.length))
+            }
+                 
+        pass.output.value=tmp;
+        }
+    </script>
+</head>
+
+<body>
+
+	<div class="container">
+	    <form action="#" name="pass">
+	        <input type="text" name="output" id="final" size="12" disabled><br>
+	        <input type="button" value="Generate Password" onClick="Generate()" id="btn">
+	        <br>
+            <span>Length:</span>
+	        <input type="text" name="lengt" size="3" id="len" value="6">
+	        
+	    </form>
+	
+
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
